@@ -1,0 +1,51 @@
+/* aca se incorporo las reglas del boxmodel */
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 10rem;
+    text-align: center;
+}
+
+.texto{
+    width: 500px;
+    height: 500px;
+    background-color: pink;
+    border: 2px solid violet;
+    padding: 10px;
+    margin: 10px auto;
+    background-image: url("../img/sas.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Rock Salt', cursive;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+
+.texto-2{
+    width: 500px;
+    height: 500px;
+    background-color: yellow;
+    border: 2px solid orange;
+    padding: 10px;
+    margin: 10px auto;
+    background-image: url("../img/sos.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Rock Salt', cursive;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.row-edit{
+    align-items: center;
+}
